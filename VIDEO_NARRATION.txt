@@ -1,0 +1,19 @@
+CONFIDENTIAL CAREER PLANNING - VIDEO NARRATION
+
+==========================================================
+
+Introducing Confidential Career Planning - a privacy-first career assessment system built with FHEVM.
+
+Career planning involves sensitive information - your goals, skills, and education priorities. Traditional systems expose all of this to platforms and counselors.
+
+With FHEVM, users submit encrypted assessments using ebool and euint8 types. The smart contract calculates guidance scores entirely in the encrypted domain - never seeing the actual data.
+
+The contract uses FHE-dot-select for conditional logic and FHE-dot-add for arithmetic. All calculations happen on encrypted values. The result is a guidance score from zero to one hundred - computed privately on-chain.
+
+Users connect their wallet, submit encrypted assessments, and retrieve personalized guidance - all while maintaining complete privacy. The system is live on Sepolia testnet.
+
+Complete with comprehensive tests, documentation at multiple levels, and deployment scripts. Start building privacy-preserving applications with FHEVM today.
+
+==========================================================
+
+END OF NARRATION
