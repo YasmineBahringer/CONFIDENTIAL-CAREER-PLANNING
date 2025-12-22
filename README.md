@@ -8,7 +8,7 @@ A comprehensive standalone FHEVM example demonstrating privacy-preserving career
 
 ### Quick Links
 
-- 🎬 [Video Demonstration](https://streamable.com/6iyu5e)
+- 🎬 [Video Demonstration](https://youtu.be/dxG2i7e26zs)
 - 🌐 [Live Demo](https://confidential-career-planning.vercel.app/)
 - 📚 [Full Documentation](docs/SUMMARY.md)
 - 🤝 [Contributing Guide](CONTRIBUTING.md)
