@@ -1,0 +1,54 @@
+{
+  "name": "fhevm-example-template",
+  "version": "1.0.0",
+  "description": "Base template for FHEVM examples using Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node",
+    "clean": "hardhat clean",
+    "lint": "solhint 'contracts/**/*.sol'",
+    "format": "prettier --write 'contracts/**/*.sol' 'test/**/*.js'"
+  },
+  "keywords": [
+    "fhevm",
+    "fhe",
+    "fully-homomorphic-encryption",
+    "privacy",
+    "smart-contracts",
+    "blockchain",
+    "hardhat",
+    "zama"
+  ],
+  "author": "Zama",
+  "license": "BSD-3-Clause-Clear",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@fhevm/hardhat-plugin": "^0.3.0",
+    "@fhevm/solidity": "^0.9.0",
+    "@openzeppelin/contracts": "^5.4.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethers": "^6.7.0",
+    "hardhat": "^2.17.0",
+    "hardhat-deploy": "^0.11.0",
+    "hardhat-gas-reporter": "^1.0.0",
+    "solhint": "^4.0.0",
+    "solidity-coverage": "^0.8.0",
+    "prettier": "^3.0.0"
+  }
+}
